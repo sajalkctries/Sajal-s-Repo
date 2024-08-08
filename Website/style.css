@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    margin: 20px 10px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.541);
+    padding: 20px 10px;
+    transition: color 0.5s ease-in-out;
+}
+header nav ul li a:hover{
+    color: black;
+}
+header button{
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.5s ease-in-out;
+}
+header button:hover{
+    opacity: 1;
+}
+.log-in{
+    background: transparent;
+}
+.sign-up{
+    color: white;
+    background-color: black;
+} 
+.division-line{
+    margin: 5px 50px 0px 50px;
+}
+.main-wrapper{
+    padding: 0px 80px;
+}
+.text-textbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+.text-textbox .text{
+    font-size: 4rem;
+    width: 480px;
+    display: block;
+    font-weight: 800;
+}
+.text-textbox .textbox{
+    background-color: white;
+    width: 480px;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.text-textbox .textbox h3{
+    font-size: 2.2rem;
+}
+.text-textbox .textbox .text-content p{
+    width: 300px;
+    margin-top: 7px;
+    font-size: 0.8rem;
+}
+.text-textbox .textbox .arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.hrl{
+    height: 3px;
+    border: none;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+}
+.text-textbox2-container{
+    margin-top: 2rem;
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    border-radius: 2rem;
+    position: relative;
+}
+.bck-img{
+    width: 200px;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-image: url(./cyber-brain-7633487_1280.jpg);
+}
+.text-textbox2-container .text2{
+    font-size: 2.5rem;
+    width: 350px;
+}
+.text-textbox2-container .text-textbox2{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 19px;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
